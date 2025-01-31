@@ -10,7 +10,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>The Wedding of Yunio & Ayu</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<meta name="description" content="The Wedding of Yunio & Ayu" />
 	<meta name="keywords" content="wedding, wedding invitation, invitation, the wedding" />
 	<meta name="author" content="Yunio & Ayu" />
@@ -159,18 +161,14 @@
 		<div id="overlay">
 			<div class="content">
 				<div class="container">
-					<div class="row">
+					<div class="row" style="margin-top: 200px !important;">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
-							<h3 style="color: #bf9b73">Undangan Pernikahan</h3>
-							<!-- <img src="images/half%20circle%20flower-500.png" alt="" class="couple-main"> -->
+							<h3 style="color: #bf9b73">Wedding Invitation of</h3>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 							<h1 id="weddingName">Yunio & Ayu</h1>
-							<p style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</p>
-							<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
-
 							<buttonw class="btn btn-primary" id="open-invitation">Buka Undangan</buttonw>
 						</div>
 					</div>
@@ -221,12 +219,14 @@
 				<div class="couple-wrap animate-box">
 					<div class="couple-half">
 						<div class="groom">
-							<img src="images/pria.jpg" alt="groom" class="img-responsive">
+							<img src="images/pria.png" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-groom">
 							<h3>Yunio Hindriyanto, M.Pd</h3>
 							<p><span style="color: #bf9b73">Putra Kedua dari</span><br>
 								<span class="parents-font">Bapak Darsono</span>
+								<br>
+								<span>&</span>
 								<br>
 								<span class="parents-font">Ibu Rochamah</span>
 							</p>
@@ -241,12 +241,14 @@
 					<p class="heart text-center"><i class="icon-heart2"></i></p>
 					<div class="couple-half">
 						<div class="bride">
-							<img src="images/wanita.jpg" alt="groom" class="img-responsive">
+							<img src="images/wanita.png" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-bride">
 							<h3>Ayu Lestari, S.Pd</h3>
 							<p><span style="color: #bf9b73">Putri Tunggal dari</span><br>
 								<span class="parents-font">Bapak Hasrul Lubis</span>
+								<br>
+								<span>&</span>
 								<br>
 								<span class="parents-font">Ibu Latifah</span>
 							</p>
@@ -281,12 +283,11 @@
 								</div>
 								<div class="d-block event-color-text mb-30">
 									<i class="icon-calendar"></i>
-									<span>Sabtu</span>
+									<span>Jumat</span>
 									<span class="tanggal">21 Februari 2025</span>
 								</div>
 								<div class="d-block mb-30">
 									<p style="font-family: 'Courgette', Arial, serif">
-										Alamat: Masjid Siti Rawani, Jati Asih, Bekasi, Jawa Barat
 									</p>
 								</div>
 							</div>
@@ -331,7 +332,7 @@
 				</div>
 				<div class="row row-bottom-padded-md animate-box">
 					<div class="col-md-12">
-						<div id="inline-gallery-container" class="inline-gallery-container" style="position: relative; height: 500px"></div>
+						<div id="inline-gallery-container" class="inline-gallery-container" style="position: relative; height: 500px; padding: 10px;"></div>
 					</div>
 				</div>
 			</div>
