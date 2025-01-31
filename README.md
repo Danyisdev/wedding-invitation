@@ -6,7 +6,7 @@ The project has been customized and edited by [Danyisdev](https://github.com/Dan
 ## ✨ Features
 
 - Online wedding invitation
-- Guestbook for sending wishes
+- Sending Wishes
 - Background music from YouTube
 - Responsive design
 
