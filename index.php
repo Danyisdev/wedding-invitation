@@ -410,7 +410,8 @@
 										<img src="images/bca.png" class="img-responsive" style="height: 100px !important; margin-bottom:10px !important;" alt="">
 									</div>
 									<h3 class="namarek">Yunio Hindriyanto</h3>
-									<p class="norek"><strong>6241 0288 41</strong></p>
+									<p class="norek" id="bankText1"><strong>6241 0288 41</strong></p>
+									<button class="btn btn-primary btn-sm" id="btnCopy1">Salin Nomor</button>
 								</div>
 							</div>
 						</div>
@@ -421,7 +422,8 @@
 										<img src="images/dki.png" class="img-responsive" style="height: 50px !important; margin-top:30px !important; margin-bottom:10px !important;" alt="">
 									</div>
 									<h3 class="namarek">Ayu Lestari</h3>
-									<p class="norek"><strong>1272 8019 413</strong></p>
+									<p class="norek" id="bankText2"><strong>1272 8019 413</strong></p>
+									<button class="btn btn-primary btn-sm" id="btnCopy2">Salin Nomor</button>
 								</div>
 							</div>
 						</div>
@@ -636,6 +638,21 @@
 					scrollTop: $(`#${el}`).offset().top
 				}, 1000);
 			}
+
+			function copyToClipboard(textToCopy, button) {
+
+				let tempInput = $("<textarea>");
+				$("body").append(tempInput);
+				tempInput.val(textToCopy).select();
+				document.execCommand("copy");
+				tempInput.remove();
+
+				// Optional: Change button text for feedback
+				$(button).text("Disalin! ✅").prop("disabled", true);
+				setTimeout(() => {
+					$(button).text("Salin Nomor").prop("disabled", false);
+				}, 2000);
+			}
 			$(document).ready(function() {
 				loadUcapan();
 				$("#formUcapan").submit(function(event) {
@@ -650,6 +667,14 @@
 							loadUcapan();
 						}
 					});
+				});
+				$("#btnCopy1").on("click", function() {
+					// Adjust as needed
+					copyToClipboard($("#bankText1").text(), this);
+				});
+				$("#btnCopy2").on("click", function() {
+					// Adjust as needed
+					copyToClipboard($("#bankText2").text(), this);
 				});
 			});
 		</script>
