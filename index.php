@@ -160,8 +160,8 @@
 
 		<div id="overlay">
 			<div class="content">
-				<div class="container">
-					<div class="row" style="margin-top: 200px !important;">
+				<div class="container bottom-content">
+					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
 							<h3 style="color: #bf9b73">Wedding Invitation of</h3>
 						</div>
@@ -187,7 +187,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<img src="images/main.png" alt="" class="couple-main">
+						<img src="images/berdua.png" alt="" class="couple-main">
 					</div>
 				</div>
 				<div class="row">
@@ -219,16 +219,13 @@
 				<div class="couple-wrap animate-box">
 					<div class="couple-half">
 						<div class="groom">
-							<img src="images/pria.png" alt="groom" class="img-responsive">
+							<img src="images/pria2.png" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-groom">
-							<h3>Yunio Hindriyanto, M.Pd</h3>
+							<h3 style="margin-bottom: 10px !important;">Yunio Hindriyanto, M.Pd</h3>
 							<p><span style="color: #bf9b73">Putra Kedua dari</span><br>
-								<span class="parents-font">Bapak Darsono</span>
+								<span class="parents-font">Bapak Darsono & Ibu Rochamah</span>
 								<br>
-								<span>&</span>
-								<br>
-								<span class="parents-font">Ibu Rochamah</span>
 							</p>
 							<!-- <div id="social-media-rehan">
 							<ul class="fh5co-social-icons">
@@ -238,19 +235,16 @@
 						</div> -->
 						</div>
 					</div>
-					<p class="heart text-center"><i class="icon-heart2"></i></p>
+					<!-- <p class="heart text-center"><i class="icon-heart2"></i></p> -->
 					<div class="couple-half">
 						<div class="bride">
-							<img src="images/wanita.png" alt="groom" class="img-responsive">
+							<img src="images/wanita2.png" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-bride">
-							<h3>Ayu Lestari, S.Pd</h3>
+							<h3 style="margin-bottom: 10px !important;">Ayu Lestari, S.Pd</h3>
 							<p><span style="color: #bf9b73">Putri Tunggal dari</span><br>
-								<span class="parents-font">Bapak Hasrul Lubis</span>
+								<span class="parents-font">Bapak Hasrul Lubis & Ibu Latifah</span>
 								<br>
-								<span>&</span>
-								<br>
-								<span class="parents-font">Ibu Latifah</span>
 							</p>
 							<!-- <div id="social-media-molid">
 							<ul class="fh5co-social-icons">
@@ -412,18 +406,22 @@
 						<div class="col-md-6 col-sm-6 text-center">
 							<div class="event-wrap animate-box">
 								<div class="d-block event-color-text mb-30">
-									<i class="icon-credit-card"></i>
-									<h4>BCA - Yunio Hindriyanto</h4>
-									<p class="tanggal"><strong>6241 0288 41</strong></p>
+									<div class="d-row">
+										<img src="images/bca.png" class="img-responsive" style="height: 100px !important; margin-bottom:10px !important;" alt="">
+									</div>
+									<h3 class="namarek">Yunio Hindriyanto</h3>
+									<p class="norek"><strong>6241 0288 41</strong></p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 text-center">
 							<div class="event-wrap animate-box">
 								<div class="d-block event-color-text mb-30">
-									<i class="icon-credit-card"></i>
-									<h4>Bank DKI - Ayu Lestari</h4>
-									<p class="tanggal"><strong>1272 8019 413</strong></p>
+									<div class="d-row">
+										<img src="images/dki.png" class="img-responsive" style="height: 50px !important; margin-top:30px !important; margin-bottom:10px !important;" alt="">
+									</div>
+									<h3 class="namarek">Ayu Lestari</h3>
+									<p class="norek"><strong>1272 8019 413</strong></p>
 								</div>
 							</div>
 						</div>
@@ -768,6 +766,9 @@
 				// You can find caption animation demo on the captions demo page
 				slideDelay: 400,
 				dynamicEl: [{
+						src: "images/main.jpg",
+						thumb: "images/main.jpg",
+					}, {
 						src: 'images/slide1.jpg',
 						thumb: 'images/slide1.jpg',
 						/*subHtml: `<div class="lightGallery-captions">
