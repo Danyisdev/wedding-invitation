@@ -64,7 +64,7 @@
 	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-transitions.css" />
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=1.0">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
