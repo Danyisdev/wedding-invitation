@@ -670,11 +670,15 @@
 				});
 				$("#btnCopy1").on("click", function() {
 					// Adjust as needed
-					copyToClipboard($("#bankText1").text(), this);
+					const text = $("#bankText1").text().trim();
+					const rmSpaceText = text.replace(/\s/g, "");
+					copyToClipboard(rmSpaceText, this);
 				});
 				$("#btnCopy2").on("click", function() {
 					// Adjust as needed
-					copyToClipboard($("#bankText2").text(), this);
+					const text = $("#bankText2").text().trim();
+					const rmSpaceText = text.replace(/\s/g, "");
+					copyToClipboard(rmSpaceText, this);
 				});
 			});
 		</script>
